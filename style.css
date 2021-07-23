@@ -1,0 +1,137 @@
+body {
+    background: url(images/fundo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.cabecalho {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-conteiner {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ilustracao {
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    width: 600px 250px;
+}
+
+.bloco-post {
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+    flex-basis: 50px;
+    flex-grow: 2;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.rodape {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.text-rodape {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    margin-top: 5rem;
+    padding-top: 3rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .footer .box-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer .box-container .box {
+    flex: 1 1 10rem;
+    margin: 2rem;
+  }
+  .footer .box-container .box h3 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    color: orangered;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+  }
+
+  .footer .box-container .box p {
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    color: floralwhite;
+    text-align: justify;
+  }
+
+  .footer .box-container .box a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+    color: #eee;
+  }
+
+  .footer .box-container .box a:hover {
+    text-decoration: underline;
+    color: orangered;
+  }
+  .footer .box-container .box .info {
+    display: flex;
+    align-items: center;
+  }
+  .footer .box-container .box .info i {
+    margin: 0.5rem 0;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background: #fff;
+    color: var(--pink);
+    font-size: 1.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+  }
+
+  .footer .credit {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    color: #fff;
+    border-top: 0.1rem solid #fff5;
+    padding: 2.5rem 1rem;
+    text-align: center;
+  }
+  .footer .credit a {
+    color: orangered;
+    /* media queries */
+  }
